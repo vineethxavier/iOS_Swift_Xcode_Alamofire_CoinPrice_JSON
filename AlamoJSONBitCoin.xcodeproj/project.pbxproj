@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A2722A4A6EDE25EFA409F06 /* Pods_AlamoJSONBitCoin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD9342358D61CA095DC77C45 /* Pods_AlamoJSONBitCoin.framework */; };
+		ACDAF9D11FD45C42008A68FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDAF9D01FD45C42008A68FD /* AppDelegate.swift */; };
+		ACDAF9D31FD45C42008A68FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDAF9D21FD45C42008A68FD /* ViewController.swift */; };
+		ACDAF9D61FD45C42008A68FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACDAF9D41FD45C42008A68FD /* Main.storyboard */; };
+		ACDAF9D81FD45C42008A68FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACDAF9D71FD45C42008A68FD /* Assets.xcassets */; };
+		ACDAF9DB1FD45C42008A68FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACDAF9D91FD45C42008A68FD /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A197DC9C747A13BD604B958 /* Pods-AlamoJSONBitCoin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlamoJSONBitCoin.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlamoJSONBitCoin/Pods-AlamoJSONBitCoin.release.xcconfig"; sourceTree = "<group>"; };
+		87770C533DCB678DBE788902 /* Pods-AlamoJSONBitCoin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlamoJSONBitCoin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlamoJSONBitCoin/Pods-AlamoJSONBitCoin.debug.xcconfig"; sourceTree = "<group>"; };
+		ACDAF9CD1FD45C42008A68FD /* AlamoJSONBitCoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlamoJSONBitCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACDAF9D01FD45C42008A68FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACDAF9D21FD45C42008A68FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACDAF9D51FD45C42008A68FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACDAF9D71FD45C42008A68FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACDAF9DA1FD45C42008A68FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACDAF9DC1FD45C42008A68FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD9342358D61CA095DC77C45 /* Pods_AlamoJSONBitCoin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlamoJSONBitCoin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACDAF9CA1FD45C42008A68FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A2722A4A6EDE25EFA409F06 /* Pods_AlamoJSONBitCoin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E4A626C83E56E6FC701FAA0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				87770C533DCB678DBE788902 /* Pods-AlamoJSONBitCoin.debug.xcconfig */,
+				2A197DC9C747A13BD604B958 /* Pods-AlamoJSONBitCoin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		58A14B019A2599ECAF41E230 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD9342358D61CA095DC77C45 /* Pods_AlamoJSONBitCoin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACDAF9C41FD45C42008A68FD = {
+			isa = PBXGroup;
+			children = (
+				ACDAF9CF1FD45C42008A68FD /* AlamoJSONBitCoin */,
+				ACDAF9CE1FD45C42008A68FD /* Products */,
+				2E4A626C83E56E6FC701FAA0 /* Pods */,
+				58A14B019A2599ECAF41E230 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ACDAF9CE1FD45C42008A68FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACDAF9CD1FD45C42008A68FD /* AlamoJSONBitCoin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACDAF9CF1FD45C42008A68FD /* AlamoJSONBitCoin */ = {
+			isa = PBXGroup;
+			children = (
+				ACDAF9D01FD45C42008A68FD /* AppDelegate.swift */,
+				ACDAF9D21FD45C42008A68FD /* ViewController.swift */,
+				ACDAF9D41FD45C42008A68FD /* Main.storyboard */,
+				ACDAF9D71FD45C42008A68FD /* Assets.xcassets */,
+				ACDAF9D91FD45C42008A68FD /* LaunchScreen.storyboard */,
+				ACDAF9DC1FD45C42008A68FD /* Info.plist */,
+			);
+			path = AlamoJSONBitCoin;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACDAF9CC1FD45C42008A68FD /* AlamoJSONBitCoin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACDAF9DF1FD45C42008A68FD /* Build configuration list for PBXNativeTarget "AlamoJSONBitCoin" */;
+			buildPhases = (
+				CEADA1DC47B5923BDFBF2DCB /* [CP] Check Pods Manifest.lock */,
+				ACDAF9C91FD45C42008A68FD /* Sources */,
+				ACDAF9CA1FD45C42008A68FD /* Frameworks */,
+				ACDAF9CB1FD45C42008A68FD /* Resources */,
+				8CB50F7F4E6A6B7CDC9C675D /* [CP] Embed Pods Frameworks */,
+				CD7028C5481CC26D4199369D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlamoJSONBitCoin;
+			productName = AlamoJSONBitCoin;
+			productReference = ACDAF9CD1FD45C42008A68FD /* AlamoJSONBitCoin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACDAF9C51FD45C42008A68FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Vineeth Xavier";
+				TargetAttributes = {
+					ACDAF9CC1FD45C42008A68FD = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = ACDAF9C81FD45C42008A68FD /* Build configuration list for PBXProject "AlamoJSONBitCoin" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACDAF9C41FD45C42008A68FD;
+			productRefGroup = ACDAF9CE1FD45C42008A68FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACDAF9CC1FD45C42008A68FD /* AlamoJSONBitCoin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACDAF9CB1FD45C42008A68FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACDAF9DB1FD45C42008A68FD /* LaunchScreen.storyboard in Resources */,
+				ACDAF9D81FD45C42008A68FD /* Assets.xcassets in Resources */,
+				ACDAF9D61FD45C42008A68FD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8CB50F7F4E6A6B7CDC9C675D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AlamoJSONBitCoin/Pods-AlamoJSONBitCoin-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlamoJSONBitCoin/Pods-AlamoJSONBitCoin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD7028C5481CC26D4199369D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AlamoJSONBitCoin/Pods-AlamoJSONBitCoin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEADA1DC47B5923BDFBF2DCB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlamoJSONBitCoin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACDAF9C91FD45C42008A68FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACDAF9D31FD45C42008A68FD /* ViewController.swift in Sources */,
+				ACDAF9D11FD45C42008A68FD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ACDAF9D41FD45C42008A68FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACDAF9D51FD45C42008A68FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACDAF9D91FD45C42008A68FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACDAF9DA1FD45C42008A68FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACDAF9DD1FD45C42008A68FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACDAF9DE1FD45C42008A68FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACDAF9E01FD45C42008A68FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87770C533DCB678DBE788902 /* Pods-AlamoJSONBitCoin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RCFH7Y85S3;
+				INFOPLIST_FILE = AlamoJSONBitCoin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vx.AlamoJSONBitCoin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACDAF9E11FD45C42008A68FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A197DC9C747A13BD604B958 /* Pods-AlamoJSONBitCoin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RCFH7Y85S3;
+				INFOPLIST_FILE = AlamoJSONBitCoin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vx.AlamoJSONBitCoin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACDAF9C81FD45C42008A68FD /* Build configuration list for PBXProject "AlamoJSONBitCoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACDAF9DD1FD45C42008A68FD /* Debug */,
+				ACDAF9DE1FD45C42008A68FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACDAF9DF1FD45C42008A68FD /* Build configuration list for PBXNativeTarget "AlamoJSONBitCoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACDAF9E01FD45C42008A68FD /* Debug */,
+				ACDAF9E11FD45C42008A68FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACDAF9C51FD45C42008A68FD /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_AlamoJSONBitCoin {
+  umbrella header "Pods-AlamoJSONBitCoin-umbrella.h"
+
+  export *
+  module * { export * }
+}
